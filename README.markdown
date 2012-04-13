@@ -6,6 +6,7 @@
 It is designed to add animations to your existing iOS project using the Adobe Flash IDE.
 
 Currently *FLAnimation* supports:
+
 * Bitmaps
 * Shapes
 * Nested timelines
@@ -16,11 +17,13 @@ Currently *FLAnimation* supports:
 * Actionscript 
 
 There is still a lot of work to be done. So what's next:
+
 * Add masks
 * Add custom ease
 * Add more Actionscript functions
 
 ## Known issues/bugs:
+
 * Shape fills don't work
 * Memory errors thrown by TouchXML
 
