@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8777890315385EBB00D498B8 /* example in Resources */ = {isa = PBXBuildFile; fileRef = 8777890215385EBB00D498B8 /* example */; };
+		8777890515385EC100D498B8 /* pootafdruk in Resources */ = {isa = PBXBuildFile; fileRef = 8777890415385EC100D498B8 /* pootafdruk */; };
+		87778909153871D700D498B8 /* lieveheersbeestje in Resources */ = {isa = PBXBuildFile; fileRef = 87778908153871D700D498B8 /* lieveheersbeestje */; };
 		879697441536CE5D00E8B5CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879697431536CE5D00E8B5CE /* UIKit.framework */; };
 		879697461536CE5D00E8B5CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879697451536CE5D00E8B5CE /* Foundation.framework */; };
 		879697481536CE5D00E8B5CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879697471536CE5D00E8B5CE /* CoreGraphics.framework */; };
@@ -29,7 +32,6 @@
 		879697B21536CFC200E8B5CE /* FLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 879697B11536CFC200E8B5CE /* FLViewController.xib */; };
 		879697B51536D0B700E8B5CE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879697B31536D0AE00E8B5CE /* QuartzCore.framework */; };
 		879697B81536D0D200E8B5CE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879697B61536D0CC00E8B5CE /* AVFoundation.framework */; };
-		879697BB1536D16D00E8B5CE /* example in Resources */ = {isa = PBXBuildFile; fileRef = 879697BA1536D16D00E8B5CE /* example */; };
 		879697DD15370A6B00E8B5CE /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 879697C215370A6B00E8B5CE /* CXMLDocument_CreationExtensions.m */; };
 		879697DE15370A6B00E8B5CE /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 879697C415370A6B00E8B5CE /* CXMLNode_CreationExtensions.m */; };
 		879697DF15370A6B00E8B5CE /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 879697C615370A6B00E8B5CE /* CXHTMLDocument.m */; };
@@ -46,6 +48,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8777890215385EBB00D498B8 /* example */ = {isa = PBXFileReference; lastKnownFileType = folder; name = example; path = animations/example; sourceTree = "<group>"; };
+		8777890415385EC100D498B8 /* pootafdruk */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pootafdruk; path = animations/pootafdruk; sourceTree = "<group>"; };
+		87778908153871D700D498B8 /* lieveheersbeestje */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lieveheersbeestje; path = animations/lieveheersbeestje; sourceTree = "<group>"; };
 		8796973F1536CE5D00E8B5CE /* FLAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		879697431536CE5D00E8B5CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		879697451536CE5D00E8B5CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -85,7 +90,6 @@
 		879697B11536CFC200E8B5CE /* FLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLViewController.xib; sourceTree = "<group>"; };
 		879697B31536D0AE00E8B5CE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		879697B61536D0CC00E8B5CE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		879697BA1536D16D00E8B5CE /* example */ = {isa = PBXFileReference; lastKnownFileType = folder; path = example; sourceTree = "<group>"; };
 		879697C115370A6B00E8B5CE /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
 		879697C215370A6B00E8B5CE /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
 		879697C315370A6B00E8B5CE /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
@@ -209,7 +213,9 @@
 		879697B91536D0ED00E8B5CE /* Animations */ = {
 			isa = PBXGroup;
 			children = (
-				879697BA1536D16D00E8B5CE /* example */,
+				8777890215385EBB00D498B8 /* example */,
+				87778908153871D700D498B8 /* lieveheersbeestje */,
+				8777890415385EC100D498B8 /* pootafdruk */,
 			);
 			name = Animations;
 			sourceTree = "<group>";
@@ -348,7 +354,9 @@
 			files = (
 				8796974E1536CE5D00E8B5CE /* InfoPlist.strings in Resources */,
 				879697B21536CFC200E8B5CE /* FLViewController.xib in Resources */,
-				879697BB1536D16D00E8B5CE /* example in Resources */,
+				8777890315385EBB00D498B8 /* example in Resources */,
+				8777890515385EC100D498B8 /* pootafdruk in Resources */,
+				87778909153871D700D498B8 /* lieveheersbeestje in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +502,7 @@
 				879697591536CE5E00E8B5CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

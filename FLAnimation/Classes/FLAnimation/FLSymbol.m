@@ -131,7 +131,7 @@
 {
     [super ready];
 
-    UIImage *myImage = [self.root.library assetWithName:@"ladybug.png"];
+    UIImage *myImage = [self.root.library assetWithName:_assetName];
     CGRect myFrame = _layer.frame;
     myFrame.size = myImage.size;
 

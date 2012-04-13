@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <math.h>
 #import "TouchXML.h"
 
 CG_INLINE float FLConvertHexStringToFloat(NSMutableString *value)
@@ -34,6 +33,9 @@ CG_INLINE float FLConvertStringToFloat(NSMutableString *value)
         
     return myValue / 20;    
 }
+
+
+#pragma mark -
 
 
 @interface FLShape : NSObject

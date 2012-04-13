@@ -56,8 +56,14 @@
 
 - (void)makePathFromString:(NSString *)string
 {
-	NSCharacterSet *myCharacters = [NSCharacterSet characterSetWithCharactersInString:@"![]\\|"];
-	NSScanner *myScanner = [NSScanner scannerWithString:string];
+    NSMutableString *myString = [NSMutableString stringWithString:string];
+    [myString replaceOccurrencesOfString:@"  " withString:@" " options:0 range:NSMakeRange(0, myString.length)];
+    [myString replaceOccurrencesOfString:@" !" withString:@"!" options:0 range:NSMakeRange(0, myString.length)];
+    [myString replaceOccurrencesOfString:@" [" withString:@"[" options:0 range:NSMakeRange(0, myString.length)];
+    [myString replaceOccurrencesOfString:@" \\" withString:@"\\" options:0 range:NSMakeRange(0, myString.length)];
+    
+	NSCharacterSet *myCharacters = [NSCharacterSet characterSetWithCharactersInString:@"![\\|"];
+	NSScanner *myScanner = [NSScanner scannerWithString:myString];
     
     while (!myScanner.isAtEnd) 
     {
@@ -72,7 +78,7 @@
             [myValueScanner scanUpToCharactersFromSet:myCharacters intoString:nil];                    
             NSArray *myValues = [[myScanResult substringToIndex:myValueScanner.scanLocation] componentsSeparatedByString:@" "];
             
-            unichar myCharacter = [string characterAtIndex:myScanner.scanLocation];
+            unichar myCharacter = [myString characterAtIndex:myScanner.scanLocation];
             switch (myCharacter) {
                     // MoveTo
                 case '!':

@@ -1,0 +1,50 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="320" height="480" frameRate="30" currentTimeline="1" xflVersion="2.1" creatorInfo="Adobe Flash Professional CS5.5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.5 build 325" majorVersion="11" minorVersion="5" buildNumber="325" viewAngle3D="33.7005366175533" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+     <media>
+          <DOMBitmapItem name="poot.png" itemID="4f882441-0000027c" sourceExternalFilepath="./LIBRARY/poot.png" sourceLastImported="1334322188" sourcePlatform="macintosh" externalFileSize="2891" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="poot.png" bitmapDataHRef="M 2 1334322199.dat" frameRight="1900" frameBottom="2360"/>
+     </media>
+     <symbols>
+          <Include href="afdruk.xml" loadImmediate="false" itemID="4f88243a-0000027a" lastModified="1334322234"/>
+          <Include href="animatie.xml" loadImmediate="false" itemID="4f88243f-0000027b" lastModified="1334324157"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1" currentFrame="62">
+               <layers>
+                    <DOMLayer name="base" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="230" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="animatie" selected="true" centerPoint3DX="49.75" centerPoint3DY="530.4">
+                                             <matrix>
+                                                  <Matrix a="0.4698486328125" b="0.1710205078125" c="-0.1710205078125" d="0.4698486328125" tx="173" ty="104"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="60.05" y="885.65"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <PrinterSettings platform="macintosh"/>
+     <publishHistory>
+          <PublishItem publishSize="2920" publishTime="1334323739"/>
+          <PublishItem publishSize="2920" publishTime="1334323731"/>
+          <PublishItem publishSize="2914" publishTime="1334323721"/>
+          <PublishItem publishSize="2914" publishTime="1334323664"/>
+          <PublishItem publishSize="2915" publishTime="1334323386"/>
+          <PublishItem publishSize="91431" publishTime="1334321922"/>
+          <PublishItem publishSize="91405" publishTime="1334321910"/>
+          <PublishItem publishSize="91472" publishTime="1334321792"/>
+          <PublishItem publishSize="91472" publishTime="1334321777"/>
+          <PublishItem publishSize="91467" publishTime="1334321753"/>
+          <PublishItem publishSize="91438" publishTime="1334321716"/>
+          <PublishItem publishSize="91461" publishTime="1334321529"/>
+          <PublishItem publishSize="91211" publishTime="1334321256"/>
+          <PublishItem publishSize="91210" publishTime="1334321234"/>
+          <PublishItem publishSize="91211" publishTime="1334321221"/>
+          <PublishItem publishSize="91165" publishTime="1334321186"/>
+     </publishHistory>
+</DOMDocument>

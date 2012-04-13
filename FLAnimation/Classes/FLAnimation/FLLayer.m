@@ -210,7 +210,7 @@
 
         CGAffineTransform myMatrix = CGAffineTransformIdentity;
         myMatrix = CGAffineTransformRotate(myMatrix, myTransform.rotation.floatValue);
-        myMatrix = CGAffineTransformScale(myMatrix, myTransform.scaleX.floatValue, myTransform.scaleY.floatValue);    
+        myMatrix = CGAffineTransformScale(myMatrix, myTransform.scaleY.floatValue, myTransform.scaleY.floatValue);    
 
         [symbol.layer setAffineTransform:myMatrix];
         [symbol.layer setPosition:myTransform.position];

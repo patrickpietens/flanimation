@@ -39,7 +39,9 @@
 {
     [super viewDidLoad];
     
-    _animation = [[FLAnimation animationWithName:@"example"] retain];
+    //_animation = [[FLAnimation animationWithName:@"example"] retain];    
+    //_animation = [[FLAnimation animationWithName:@"lieveheersbeestje"] retain];
+    _animation = [[FLAnimation animationWithName:@"pootafdruk"] retain];    
     [self.view.layer addSublayer:_animation.layer];
     
     [_animation play];
@@ -58,7 +60,6 @@
 
 - (void)didReachLastFrame:(NSNotification *)notification
 {
-    NSLog(@"Reached end of animation: %@", _animation.name);    
 }
 
 @end

@@ -1,0 +1,95 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="320" height="480" frameRate="30" currentTimeline="1" xflVersion="2.1" creatorInfo="Adobe Flash Professional CS5.5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.5 build 325" majorVersion="11" minorVersion="5" buildNumber="325" guidesSnapTo="false" snapAlign="false" viewAngle3D="33.7005366175533" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
+     <media>
+          <DOMBitmapItem name="ladybug.png" itemID="4f7c367d-00000259" sourceExternalFilepath="../../../../PPFlashAnimation/Classes/animation/LIBRARY/ladybug.png" sourceLastImported="1330292984" sourcePlatform="macintosh" externalFileSize="5809" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="ladybug.png" bitmapDataHRef="M 1 1333540457.dat" frameRight="1260" frameBottom="900"/>
+          <DOMSoundItem name="mfx_beep51.mp3" itemID="4f7c469b-000002d2" sourceExternalFilepath="../../../../PPFlashAnimation/Classes/animation/LIBRARY/mfx_beep51.mp3" sourceLastImported="1302772289" sourcePlatform="macintosh" externalFileSize="2090" href="mfx_beep51.mp3" soundDataHRef="M 2 1333544600.dat" format="44kHz 16bit Stereo" sampleCount="5760" exportFormat="1" exportBits="7" dataLength="2090" exportNative="true" cacheFormat="5kHz 8bit Stereo" cachedSampleCount="720"/>
+     </media>
+     <symbols>
+          <Include href="ladybug.xml" loadImmediate="false" itemID="4f86a08c-00000268" lastModified="1334222988"/>
+          <Include href="nested.xml" loadImmediate="false" itemID="4f857d49-000002b0" lastModified="1334171695"/>
+          <Include href="shape.xml" loadImmediate="false" itemID="4f86a090-00000269" lastModified="1334222992"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1" currentFrame="79">
+               <layers>
+                    <DOMLayer name="advancded guide" color="#FF800A" autoNamed="false" layerType="guide">
+                         <frames>
+                              <DOMFrame index="0" duration="201" keyMode="9728">
+                                   <elements>
+                                        <DOMShape>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge strokeStyle="1" edges="!5540 -2240[5376 -1885 5055 -1332!5055 -1332[4412 -225 3625 767!3625 767[2522 2156 1287 3117!1287 3117[-256 4318 -1920 4779!-1920 4779[-3607 5246 -4563 5661!-4563 5661[-5368 6012 -5574 6287!-5574 6287[-5748 6520 -5468 6639!-5468 6639
+[-5210 6748 -4759 6700!-4759 6700[-3752 6564 -2758 6451!-2758 6451[-834 6232 843 6160!843 6160[6070 5937 8500 7120!8500 7120[9838 7772 11035 8130!11035 8130[12033 8428 12775 8481!12775 8481[13414 8527 13608 8387!13608 8387[13695 8324
+ 13648 8239!13648 8239[13601 8151 13420 8059!13420 8059[13278 7987 12551 7810!12551 7810[11283 7503 10932 7411!10932 7411[8442 6761 6955 5995!6955 5995[4810 4890 4516 3476!4516 3476[4150 1720 6640 -480!6640 -480[9123 -2674 10173 -3142
+!10173 -3142[11014 -3518 10900 -2775!10900 -2775[10818 -2239 10263 -1200!10263 -1200[10081 -861 9882 -529!9882 -529[9720 -260 9700 -240"/>
+                                                  <Edge cubics="!5540 -2240(5540,-2240;5540,-2240 2919,3439 -1920,4779q5540 -2240Q5376 -1885q5055 -1332Q4412 -225q3625 767Q2522 2156q1287 3117Q-256 4318q-1920 4779);"/>
+                                                  <Edge cubics="!-1920 4779(;-6759,6119 -5879,6820 -4759,6700q-1920 4779Q-3607 5246q-4563 5661Q-5368 6012q-5574 6287Q-5748 6520q-5468 6639Q-5210 6748q-4759 6700);"/>
+                                                  <Edge cubics="!-4759 6700(;-3639,6580 4640,5241 8500,7120q-4759 6700Q-3752 6564q-2758 6451Q-834 6232q843 6160Q6070 5937q8500 7120);"/>
+                                                  <Edge cubics="!8500 7120(;12360,8999 14400,8558 13420,8059q8500 7120Q9838 7772q11035 8130Q12033 8428q12775 8481Q13414 8527q13608 8387Q13695 8324q13648 8239Q13601 8151q13420 8059);"/>
+                                                  <Edge cubics="!13420 8059(;12440,7560 -580,5900 6640,-480q13420 8059Q13278 7987q12551 7810Q11283 7503q10932 7411Q8442 6761q6955 5995Q4810 4890q4516 3476Q4150 1720q6640 -480);"/>
+                                                  <Edge cubics="!6640 -480(;13860,-6860 9760,-300 9700,-240q6640 -480Q9123 -2674q10173 -3142Q11014 -3518q10900 -2775Q10818 -2239q10263 -1200Q10081 -861q9882 -529Q9720 -260q9700 -240)9640,-180;"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="guided bug" color="#4FFF4F" parentLayerIndex="0" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="200" tweenType="motion" motionTweenOrientToPath="true" motionTweenSnap="true" keyMode="22273">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="ladybug" name="bug" centerPoint3DX="277" centerPoint3DY="-112">
+                                             <matrix>
+                                                  <Matrix tx="277" ty="-112"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="200" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="ladybug" name="bug" centerPoint3DX="485.15" centerPoint3DY="-12.4">
+                                             <matrix>
+                                                  <Matrix d="0.999969482421875" tx="485" ty="-12"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <PrinterSettings platform="macintosh"/>
+     <publishHistory>
+          <PublishItem publishSize="10055" publishTime="1334226096"/>
+          <PublishItem publishSize="5524" publishTime="1334226059"/>
+          <PublishItem publishSize="3956" publishTime="1334049917"/>
+          <PublishItem publishSize="4025" publishTime="1334046451"/>
+          <PublishItem publishSize="3495" publishTime="1333789414"/>
+          <PublishItem publishSize="3495" publishTime="1333789383"/>
+          <PublishItem publishSize="1778" publishTime="1333749886"/>
+          <PublishItem publishSize="3264" publishTime="1333725447"/>
+          <PublishItem publishSize="3264" publishTime="1333725441"/>
+          <PublishItem publishSize="3566" publishTime="1333544263"/>
+          <PublishItem publishSize="3566" publishTime="1333544259"/>
+          <PublishItem publishSize="3567" publishTime="1333544215"/>
+          <PublishItem publishSize="1080" publishTime="1333444307"/>
+          <PublishItem publishSize="1080" publishTime="1333444288"/>
+          <PublishItem publishSize="1080" publishTime="1333444281"/>
+          <PublishItem publishSize="1080" publishTime="1333444274"/>
+     </publishHistory>
+</DOMDocument>

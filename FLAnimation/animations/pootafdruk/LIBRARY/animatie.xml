@@ -1,0 +1,394 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="animatie" itemID="4f88243f-0000027b" lastModified="1334324157" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="animatie" currentFrame="189">
+      <layers>
+        <DOMLayer name="Poot 8" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="140" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="140" duration="79" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="186.4" centerPoint3DY="-368.85">
+                  <matrix>
+                    <Matrix tx="139.7" ty="-427"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="219" duration="10" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="186.4" centerPoint3DY="-368.85">
+                  <matrix>
+                    <Matrix tx="139.7" ty="-427"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="229" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="186.4" centerPoint3DY="-368.85">
+                  <matrix>
+                    <Matrix tx="139.7" ty="-427"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Poot 7" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="119" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="119" duration="90" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="46.7" centerPoint3DY="-205.4">
+                  <matrix>
+                    <Matrix ty="-263.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="209" duration="10" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="46.7" centerPoint3DY="-205.4">
+                  <matrix>
+                    <Matrix ty="-263.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="219" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="46.7" centerPoint3DY="-205.4">
+                  <matrix>
+                    <Matrix ty="-263.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="220" duration="10" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Poot 6" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="99" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="99" duration="100" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="171.55" centerPoint3DY="-25.55">
+                  <matrix>
+                    <Matrix tx="124.85" ty="-83.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="199" duration="10" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="171.55" centerPoint3DY="-25.55">
+                  <matrix>
+                    <Matrix tx="124.85" ty="-83.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="209" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="171.55" centerPoint3DY="-25.55">
+                  <matrix>
+                    <Matrix tx="124.85" ty="-83.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="210" duration="20" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Poot 5" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="79" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="79" duration="110" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="60.05" centerPoint3DY="148.3">
+                  <matrix>
+                    <Matrix tx="13.35" ty="90.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="189" duration="10" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="60.05" centerPoint3DY="148.3">
+                  <matrix>
+                    <Matrix tx="13.35" ty="90.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="199" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="60.05" centerPoint3DY="148.3">
+                  <matrix>
+                    <Matrix tx="13.35" ty="90.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="200" duration="30" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Poot 4" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="59" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="59" duration="121" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="186.4" centerPoint3DY="368.55">
+                  <matrix>
+                    <Matrix tx="139.7" ty="310.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="180" duration="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="186.4" centerPoint3DY="368.55">
+                  <matrix>
+                    <Matrix tx="139.7" ty="310.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="189" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" selected="true" centerPoint3DX="186.4" centerPoint3DY="368.55">
+                  <matrix>
+                    <Matrix tx="139.7" ty="310.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="190" duration="40" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Poot 3" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="39" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="39" duration="131" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="46.7" centerPoint3DY="532">
+                  <matrix>
+                    <Matrix ty="473.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="170" duration="10" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="46.7" centerPoint3DY="532">
+                  <matrix>
+                    <Matrix ty="473.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="180" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="46.7" centerPoint3DY="532">
+                  <matrix>
+                    <Matrix ty="473.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="181" duration="49" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Poot 2" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="19" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="19" duration="140" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="171.55" centerPoint3DY="711.85">
+                  <matrix>
+                    <Matrix tx="124.85" ty="653.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="159" duration="11" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="171.55" centerPoint3DY="711.85">
+                  <matrix>
+                    <Matrix tx="124.85" ty="653.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="170" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="171.55" centerPoint3DY="711.85">
+                  <matrix>
+                    <Matrix tx="124.85" ty="653.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="171" duration="59" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Poot 1" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="149" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="60.05" centerPoint3DY="885.7">
+                  <matrix>
+                    <Matrix tx="13.35" ty="827.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="149" duration="10" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="60.05" centerPoint3DY="885.7">
+                  <matrix>
+                    <Matrix tx="13.35" ty="827.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="159" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="60.05" centerPoint3DY="885.7">
+                  <matrix>
+                    <Matrix tx="13.35" ty="827.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="58.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="160" duration="70" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

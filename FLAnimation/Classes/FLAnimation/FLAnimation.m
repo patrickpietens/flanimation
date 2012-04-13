@@ -44,6 +44,7 @@
         CGRect myFrame = CGRectZero;
         myFrame.size.width = [_data.rootElement attributeForName:@"width"].stringValue.intValue;
         myFrame.size.height = [_data.rootElement attributeForName:@"height"].stringValue.intValue;
+        [_layer setHidden:YES];
         [_layer setFrame:myFrame];
         
         NSArray *myAssets = [_data nodesForXPath:@"//adobe:DOMBitmapItem|//adobe:Include" namespaceMappings:myMappings error:nil];        
@@ -95,6 +96,8 @@
 {
     double myInterval = 1.0f / self.framerate;
     _timer = [[NSTimer scheduledTimerWithTimeInterval:myInterval target:self selector:@selector(update) userInfo:nil repeats:YES] retain];
+    
+    [_layer setHidden:NO];    
 }
 
 
