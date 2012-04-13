@@ -21,7 +21,7 @@
 @synthesize root                = _root;
 @synthesize parent              = _parent;
 
-@synthesize frames              = _frames;
+@synthesize keyframes              = _keyframes;
 @synthesize hasGuide            = _hasGuide;
 @synthesize isGuide             = _isGuide;
 @synthesize totalFrames         = _totalFrames;
@@ -44,7 +44,7 @@
         NSArray *myFrames = [myDocument nodesForXPath:@"//DOMFrame" error:nil];        
         [self parseFrames:myFrames];
         
-        FLFrame *myLastFrame = [_frames lastObject];
+        FLFrame *myLastFrame = [_keyframes lastObject];
         _totalFrames = myLastFrame.index + myLastFrame.duration;
 
         NSArray *mySymbols = [myDocument nodesForXPath:@"//DOMSymbolInstance|//DOMBitmapInstance|//DOMShape" error:nil];        
@@ -62,10 +62,10 @@
     self = [super init];
     if (self) 
     {
-        _currentIndex = 0;    
+        _currentKeyIndex = 0;    
         _hasGuide = NO;
         
-        _frames = [[NSMutableArray array] retain];
+        _keyframes = [[NSMutableArray array] retain];
         _symbols = [[NSMutableArray array] retain];
     }
     
@@ -76,7 +76,7 @@
 - (void)dealloc
 {
     [_symbols release];
-    [_frames release];
+    [_keyframes release];
     
     _parent = nil;
     _root = nil;
@@ -92,7 +92,7 @@
 {
     [frames enumerateObjectsUsingBlock:^(CXMLElement* frame, NSUInteger idx, BOOL *stop) {
         FLFrame *myFrame = [[FLFrame alloc] initWithXMLString:frame.XMLString];            
-        [_frames addObject:myFrame];
+        [_keyframes addObject:myFrame];
         
         [myFrame release];
     }];            
@@ -126,10 +126,10 @@
 
 - (void)ready
 {
-    [_frames enumerateObjectsUsingBlock:^(FLFrame *frame, NSUInteger idx, BOOL *stop) {
-        if(idx<(_frames.count-1))
+    [_keyframes enumerateObjectsUsingBlock:^(FLFrame *frame, NSUInteger idx, BOOL *stop) {
+        if(idx<(_keyframes.count-1))
         {
-            FLFrame *myNextFrame = [_frames objectAtIndex:(idx+1)];
+            FLFrame *myNextFrame = [_keyframes objectAtIndex:(idx+1)];
             [frame setNextFrame:myNextFrame];   
         }
 
@@ -158,22 +158,23 @@
         {
             if(_parent.currentFrame==0)
             {
-                _currentIndex = 0;
+                _currentKeyIndex = 0;
             }
             
-            if(_currentIndex<_frames.count)
+            if(_currentKeyIndex<_keyframes.count)
             {
-                _currentKeyframe = [_frames objectAtIndex:_currentIndex];
+                _currentKeyframe = [_keyframes objectAtIndex:_currentKeyIndex];
             }
 
             if(_currentKeyframe.index==_parent.currentFrame)
             {    
                 if(!self.isGuide)
                 {
-                    
                     [_symbols enumerateObjectsUsingBlock:^(FLSymbol *symbol, NSUInteger idx, BOOL *stop) {
                         if(symbol.type == FLSymbolTypeMovieClip)
                         {
+                            [symbol.layer removeAllAnimations];                            
+                            
                             [self transformSymbol:symbol];
                             if(_currentKeyframe.hasTween)
                             {
@@ -186,7 +187,7 @@
                 [self performActionscript]; 
                 [self playAudio];
                 
-                _currentIndex++;          
+                _currentKeyIndex++;          
             }   
         }
         
@@ -201,20 +202,18 @@
 {
     [CATransaction begin];	
     [CATransaction setDisableActions:YES];
-    
+
+    FLTransform *myTransform = [_currentKeyframe transformForSymbol:symbol];
+    [symbol.layer setOpacity:myTransform.alpha.floatValue];
+
+    CGAffineTransform myMatrix = CGAffineTransformIdentity;
+    myMatrix = CGAffineTransformRotate(myMatrix, myTransform.rotation.floatValue);
+    myMatrix = CGAffineTransformScale(myMatrix, myTransform.scaleY.floatValue, myTransform.scaleY.floatValue);    
+
+    [symbol.layer setAffineTransform:myMatrix];
+    [symbol.layer setPosition:myTransform.position];
+
     [symbol setHidden:![_currentKeyframe hasSymbol:symbol]];
-    if(!symbol.hidden)
-    {        
-        FLTransform *myTransform = [_currentKeyframe transformForSymbol:symbol];
-        [symbol.layer setOpacity:myTransform.alpha.floatValue];
-
-        CGAffineTransform myMatrix = CGAffineTransformIdentity;
-        myMatrix = CGAffineTransformRotate(myMatrix, myTransform.rotation.floatValue);
-        myMatrix = CGAffineTransformScale(myMatrix, myTransform.scaleY.floatValue, myTransform.scaleY.floatValue);    
-
-        [symbol.layer setAffineTransform:myMatrix];
-        [symbol.layer setPosition:myTransform.position];
-    }
     
     [CATransaction commit];    
 }
@@ -222,27 +221,20 @@
 
 - (void)tweenToNextKeyframe:(FLSymbol *)symbol
 {   
-    [symbol.layer removeAllAnimations];                        
-    
     if(!symbol.hidden)
     {        
-        FLTransform *myTransformFrom = [_currentKeyframe transformForSymbol:symbol];
         FLTransform *myTransformTo = [_currentKeyframe.nextFrame transformForSymbol:symbol];
         
         CABasicAnimation *myOpacity = [CABasicAnimation animationWithKeyPath:@"opacity"];
-        [myOpacity setFromValue:myTransformFrom.alpha];
         [myOpacity setToValue:myTransformTo.alpha];
         
         CABasicAnimation *myRotation = [CABasicAnimation animationWithKeyPath:@"transform.rotation"];
-        [myRotation setFromValue:myTransformFrom.rotation];
         [myRotation setToValue:myTransformTo.rotation];
         
         CABasicAnimation *myScaleX = [CABasicAnimation animationWithKeyPath:@"transform.scale.x"];
-        [myScaleX setFromValue:myTransformFrom.scaleX];
         [myScaleX setToValue:myTransformTo.scaleX];
         
         CABasicAnimation *myScaleY = [CABasicAnimation animationWithKeyPath:@"transform.scale.y"];
-        [myScaleY setFromValue:myTransformFrom.scaleY];
         [myScaleY setToValue:myTransformTo.scaleY];
         
         CAAnimation *myTranslation = nil;
@@ -261,21 +253,22 @@
         else 
         {
             CABasicAnimation *myPositionX = [CABasicAnimation animationWithKeyPath:@"position.x"];
-            [myPositionX setFromValue:myTransformFrom.x];
             [myPositionX setToValue:myTransformTo.x];
             
             CABasicAnimation *myPositionY = [CABasicAnimation animationWithKeyPath:@"position.y"];
-            [myPositionY setFromValue:myTransformFrom.y];
             [myPositionY setToValue:myTransformTo.y];
             
             myTranslation = [CAAnimationGroup animation];
             [(id)myTranslation setAnimations:[NSArray arrayWithObjects:myPositionX, myPositionY, nil]];
         }
         
-        float myDuration = _currentKeyframe.duration / _parent.root.framerate;    
         CAAnimationGroup *myGroup = [CAAnimationGroup animation];
         [myGroup setTimingFunction:_currentKeyframe.tween.ease];
         [myGroup setAnimations:[NSArray arrayWithObjects:myTranslation, myScaleX, myScaleY, myOpacity, myRotation, nil]];
+        [myGroup setFillMode:kCAFillModeForwards];
+        [myGroup setRemovedOnCompletion:NO];
+        
+        float myDuration = _currentKeyframe.duration / _parent.root.framerate;            
         [myGroup setDuration:myDuration];
         
         [symbol.layer addAnimation:myGroup forKey:@"tween"];        

@@ -1,7 +1,7 @@
 <flash_profiles>
 <flash_profile version="1.0" name="Default" current="true">
   <PublishFormatProperties enabled="true">
-    <defaultNames>1</defaultNames>
+    <defaultNames>0</defaultNames>
     <flash>1</flash>
     <projectorWin>0</projectorWin>
     <projectorMac>0</projectorMac>
@@ -15,40 +15,40 @@
     <flashDefaultName>1</flashDefaultName>
     <projectorWinDefaultName>1</projectorWinDefaultName>
     <projectorMacDefaultName>1</projectorMacDefaultName>
-    <htmlDefaultName>1</htmlDefaultName>
+    <htmlDefaultName>0</htmlDefaultName>
     <gifDefaultName>1</gifDefaultName>
     <jpegDefaultName>1</jpegDefaultName>
     <pngDefaultName>1</pngDefaultName>
     <qtDefaultName>1</qtDefaultName>
     <rnwkDefaultName>1</rnwkDefaultName>
-    <swcDefaultName>1</swcDefaultName>
-    <flashFileName>lieveheersbeestje.swf</flashFileName>
-    <projectorWinFileName>lieveheersbeestje.exe</projectorWinFileName>
-    <projectorMacFileName>lieveheersbeestje.app</projectorMacFileName>
-    <htmlFileName>lieveheersbeestje.html</htmlFileName>
-    <gifFileName>lieveheersbeestje.gif</gifFileName>
-    <jpegFileName>lieveheersbeestje.jpg</jpegFileName>
-    <pngFileName>lieveheersbeestje.png</pngFileName>
-    <qtFileName>lieveheersbeestje.mov</qtFileName>
-    <rnwkFileName>lieveheersbeestje.smil</rnwkFileName>
-    <swcFileName>lieveheersbeestje.swc</swcFileName>
+    <swcDefaultName>0</swcDefaultName>
+    <flashFileName>pootafdruk.swf</flashFileName>
+    <projectorWinFileName>pootafdruk.exe</projectorWinFileName>
+    <projectorMacFileName>pootafdruk.app</projectorMacFileName>
+    <htmlFileName>index.html</htmlFileName>
+    <gifFileName>pootafdruk.gif</gifFileName>
+    <jpegFileName>pootafdruk.jpg</jpegFileName>
+    <pngFileName>pootafdruk.png</pngFileName>
+    <qtFileName>pootafdruk.mov</qtFileName>
+    <rnwkFileName>pootafdruk.smil</rnwkFileName>
+    <swcFileName>pootafdruk.swc</swcFileName>
   </PublishFormatProperties>
   <PublishHtmlProperties enabled="true">
     <VersionDetectionIfAvailable>0</VersionDetectionIfAvailable>
     <VersionInfo>10,0,2,0;10,2,153,0;10,1,52,0;9,0,124,0;8,0,24,0;7,0,14,0;6,0,79,0;5,0,58,0;4,0,32,0;3,0,8,0;2,0,1,12;1,0,0,1;</VersionInfo>
     <UsingDefaultContentFilename>1</UsingDefaultContentFilename>
     <UsingDefaultAlternateFilename>1</UsingDefaultAlternateFilename>
-    <ContentFilename>lieveheersbeestje.xfl_content.html</ContentFilename>
-    <AlternateFilename>lieveheersbeestje.xfl_alternate.html</AlternateFilename>
+    <ContentFilename>pootafdruk.xfl_content.html</ContentFilename>
+    <AlternateFilename>pootafdruk.xfl_alternate.html</AlternateFilename>
     <UsingOwnAlternateFile>0</UsingOwnAlternateFile>
     <OwnAlternateFilename></OwnAlternateFilename>
-    <Width>320</Width>
-    <Height>480</Height>
+    <Width>100</Width>
+    <Height>100</Height>
     <Align>0</Align>
-    <Units>0</Units>
+    <Units>2</Units>
     <Loop>1</Loop>
     <StartPaused>0</StartPaused>
-    <Scale>0</Scale>
+    <Scale>3</Scale>
     <HorizontalAlignment>1</HorizontalAlignment>
     <VerticalAlignment>1</VerticalAlignment>
     <Quality>4</Quality>
@@ -56,7 +56,7 @@
     <WindowMode>0</WindowMode>
     <DisplayMenu>1</DisplayMenu>
     <DeviceFont>0</DeviceFont>
-    <TemplateFileName>/Users/patrickpietens/Library/Application Support/Adobe/Flash CS4/en/Configuration/HTML/Default.html</TemplateFileName>
+    <TemplateFileName>/Users/rene/Library/Application Support/Adobe/Flash CS4/en/Configuration/HTML/Default.html</TemplateFileName>
     <showTagWarnMsg>1</showTagWarnMsg>
   </PublishHtmlProperties>
   <PublishFlashProperties enabled="true">
@@ -74,7 +74,7 @@
     <OverrideSounds>0</OverrideSounds>
     <Version>10</Version>
     <ExternalPlayer>FlashPlayer10</ExternalPlayer>
-    <ActionScriptVersion>3</ActionScriptVersion>
+    <ActionScriptVersion>2</ActionScriptVersion>
     <PackageExportFrame>1</PackageExportFrame>
     <PackagePaths></PackagePaths>
     <AS3PackagePaths>.</AS3PackagePaths>

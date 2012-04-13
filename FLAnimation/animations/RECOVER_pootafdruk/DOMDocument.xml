@@ -4,16 +4,16 @@
      </media>
      <symbols>
           <Include href="afdruk.xml" loadImmediate="false" itemID="4f88243a-0000027a" lastModified="1334322234"/>
-          <Include href="animatie.xml" loadImmediate="false" itemID="4f88243f-0000027b" lastModified="1334354485"/>
+          <Include href="animatie.xml" loadImmediate="false" itemID="4f88243f-0000027b" lastModified="1334351557"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1">
+          <DOMTimeline name="Scene 1" currentFrame="187">
                <layers>
                     <DOMLayer name="base" color="#9933CC" current="true" isSelected="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" keyMode="9728">
+                              <DOMFrame index="0" duration="230" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="animatie" name="animatie" centerPoint3DX="49.75" centerPoint3DY="530.4">
+                                        <DOMSymbolInstance libraryItemName="animatie" selected="true" centerPoint3DX="49.75" centerPoint3DY="530.4">
                                              <matrix>
                                                   <Matrix a="0.4698486328125" b="0.1710205078125" c="-0.1710205078125" d="0.4698486328125" tx="173" ty="104"/>
                                              </matrix>

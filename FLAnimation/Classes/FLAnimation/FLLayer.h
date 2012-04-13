@@ -19,7 +19,7 @@
     BOOL                _isGuide;
     BOOL                _hasGuide;
 
-    NSInteger           _currentIndex;
+    NSInteger           _currentKeyIndex;
     NSInteger           _totalFrames;
      
     FLAnimation         *_root;    
@@ -28,21 +28,21 @@
     FLLayer             *_guideLayer;
     NSInteger           _guideLayerIndex;
     FLFrame             *_currentKeyframe;
-    NSMutableArray      *_frames;
+    NSMutableArray      *_keyframes;
     NSMutableArray      *_symbols;        
 }
 
 @property (nonatomic, readonly) BOOL            hasGuide;
 @property (nonatomic, readonly) BOOL            isGuide;
 @property (nonatomic, readonly) NSInteger       totalFrames;
+@property (nonatomic, readonly) NSInteger       guideLayerIndex;
 
 @property (nonatomic, assign) FLAnimation       *root;
 @property (nonatomic, assign) FLTimeline        *parent;
 
 @property (nonatomic, assign) FLLayer           *guideLayer;
-@property (nonatomic, readonly) NSInteger       guideLayerIndex;
 @property (nonatomic, readonly) FLFrame         *currentKeyframe;
-@property (nonatomic, readonly) NSArray         *frames;
+@property (nonatomic, readonly) NSArray         *keyframes;
 
 - (id)initWithXMLString:(NSString *)XMLString;
 

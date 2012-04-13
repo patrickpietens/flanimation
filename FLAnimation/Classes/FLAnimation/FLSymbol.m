@@ -37,9 +37,9 @@
         _assetName = [[myDocument.rootElement attributeForName:@"libraryItemName"].stringValue retain]; 
         _name = [[myDocument.rootElement attributeForName:@"name"].stringValue retain];
         
-        if(_name==nil)
+        if(_type==FLSymbolTypeMovieClip && _name==nil)
         {
-            _name = [_assetName retain];
+            [NSException raise:@"Invalid name value" format:@"FLSymbol '%@' requires a valid name", myDocument.stringValue];
         }
 
         if(_type==FLSymbolTypeShape)
@@ -59,7 +59,7 @@
     self = [super init];
     if (self) 
     {
-        _hidden = NO;
+        _hidden = NO;    
     }
     
     return self;

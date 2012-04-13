@@ -1,7 +1,7 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="320" height="480" frameRate="30" currentTimeline="1" xflVersion="2.1" creatorInfo="Adobe Flash Professional CS5.5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.5 build 325" majorVersion="11" minorVersion="5" buildNumber="325" guidesSnapTo="false" snapAlign="false" viewAngle3D="33.7005366175533" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
      <media>
-          <DOMBitmapItem name="ladybug.png" itemID="4f7c367d-00000259" sourceExternalFilepath="../../../../PPFlashAnimation/Classes/animation/LIBRARY/ladybug.png" sourceLastImported="1330292984" sourcePlatform="macintosh" externalFileSize="5809" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="ladybug.png" bitmapDataHRef="M 1 1333540457.dat" frameRight="1260" frameBottom="900"/>
-          <DOMSoundItem name="mfx_beep51.mp3" itemID="4f7c469b-000002d2" sourceExternalFilepath="../../../../PPFlashAnimation/Classes/animation/LIBRARY/mfx_beep51.mp3" sourceLastImported="1302772289" sourcePlatform="macintosh" externalFileSize="2090" href="mfx_beep51.mp3" soundDataHRef="M 2 1333544600.dat" format="44kHz 16bit Stereo" sampleCount="5760" exportFormat="1" exportBits="7" dataLength="2090" exportNative="true" cacheFormat="5kHz 8bit Stereo" cachedSampleCount="720"/>
+          <DOMBitmapItem name="ladybug.png" itemID="4f883e24-000002b4" sourceExternalFilepath="/Users/patrickpietens/Work in Progress/FLAnimation/FLAnimation/animations/lieveheersbeestje/LIBRARY/ladybug.png" sourceLastImported="1334328068" sourcePlatform="macintosh" externalFileSize="5809" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="ladybug.png" bitmapDataHRef="M 1 1333540457.dat" frameRight="1260" frameBottom="900"/>
+          <DOMSoundItem name="mfx_beep51.mp3" itemID="4f883e24-000002b5" sourceExternalFilepath="/Users/patrickpietens/Work in Progress/FLAnimation/FLAnimation/animations/lieveheersbeestje/LIBRARY/mfx_beep51.mp3" sourceLastImported="1334328068" sourcePlatform="macintosh" externalFileSize="2090" href="mfx_beep51.mp3" soundDataHRef="M 2 1333544600.dat" format="44kHz 16bit Stereo" sampleCount="5760" exportFormat="1" exportBits="7" dataLength="2090" exportNative="true" cacheFormat="5kHz 8bit Stereo" cachedSampleCount="720"/>
      </media>
      <symbols>
           <Include href="ladybug.xml" loadImmediate="false" itemID="4f86a08c-00000268" lastModified="1334222988"/>
@@ -9,11 +9,11 @@
           <Include href="shape.xml" loadImmediate="false" itemID="4f86a090-00000269" lastModified="1334222992"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="79">
+          <DOMTimeline name="Scene 1" currentFrame="109">
                <layers>
                     <DOMLayer name="advancded guide" color="#FF800A" autoNamed="false" layerType="guide">
                          <frames>
-                              <DOMFrame index="0" duration="201" keyMode="9728">
+                              <DOMFrame index="0" duration="325" keyMode="9728">
                                    <elements>
                                         <DOMShape>
                                              <strokes>
@@ -26,7 +26,7 @@
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!5540 -2240[5376 -1885 5055 -1332!5055 -1332[4412 -225 3625 767!3625 767[2522 2156 1287 3117!1287 3117[-256 4318 -1920 4779!-1920 4779[-3607 5246 -4563 5661!-4563 5661[-5368 6012 -5574 6287!-5574 6287[-5748 6520 -5468 6639!-5468 6639
+                                                  <Edge strokeStyle="1" edges="!5540 -2240S4[5376 -1885 5055 -1332!5055 -1332[4412 -225 3625 767!3625 767[2522 2156 1287 3117!1287 3117[-256 4318 -1920 4779!-1920 4779[-3607 5246 -4563 5661!-4563 5661[-5368 6012 -5574 6287!-5574 6287[-5748 6520 -5468 6639!-5468 6639
 [-5210 6748 -4759 6700!-4759 6700[-3752 6564 -2758 6451!-2758 6451[-834 6232 843 6160!843 6160[6070 5937 8500 7120!8500 7120[9838 7772 11035 8130!11035 8130[12033 8428 12775 8481!12775 8481[13414 8527 13608 8387!13608 8387[13695 8324
  13648 8239!13648 8239[13601 8151 13420 8059!13420 8059[13278 7987 12551 7810!12551 7810[11283 7503 10932 7411!10932 7411[8442 6761 6955 5995!6955 5995[4810 4890 4516 3476!4516 3476[4150 1720 6640 -480!6640 -480[9123 -2674 10173 -3142
 !10173 -3142[11014 -3518 10900 -2775!10900 -2775[10818 -2239 10263 -1200!10263 -1200[10081 -861 9882 -529!9882 -529[9720 -260 9700 -240"/>
@@ -44,9 +44,9 @@
                     </DOMLayer>
                     <DOMLayer name="guided bug" color="#4FFF4F" parentLayerIndex="0" current="true" isSelected="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="200" tweenType="motion" motionTweenOrientToPath="true" motionTweenSnap="true" keyMode="22273">
+                              <DOMFrame index="0" duration="324" tweenType="motion" motionTweenOrientToPath="true" motionTweenSnap="true" keyMode="22273">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="ladybug" name="bug" centerPoint3DX="277" centerPoint3DY="-112">
+                                        <DOMSymbolInstance libraryItemName="ladybug" name="bug" selected="true" centerPoint3DX="277" centerPoint3DY="-112">
                                              <matrix>
                                                   <Matrix tx="277" ty="-112"/>
                                              </matrix>
@@ -56,7 +56,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="200" keyMode="9728">
+                              <DOMFrame index="324" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="ladybug" name="bug" centerPoint3DX="485.15" centerPoint3DY="-12.4">
                                              <matrix>

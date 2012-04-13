@@ -1,13 +1,13 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="animatie" itemID="4f88243f-0000027b" lastModified="1334354485" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="animatie" itemID="4f88243f-0000027b" lastModified="1334351557" lastUniqueIdentifier="3">
   <timeline>
-    <DOMTimeline name="animatie" currentFrame="203">
+    <DOMTimeline name="animatie" currentFrame="187">
       <layers>
         <DOMLayer name="Poot 8" color="#4FFF4F" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="140" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="140" duration="44" keyMode="9728">
+            <DOMFrame index="140" duration="79" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="afdruk" name="h" centerPoint3DX="186.4" centerPoint3DY="-368.85">
                   <matrix>
@@ -19,9 +19,9 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="184" duration="18" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+            <DOMFrame index="219" duration="18" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="afdruk" name="h" centerPoint3DX="186.4" centerPoint3DY="-368.85">
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="186.4" centerPoint3DY="-368.85">
                   <matrix>
                     <Matrix tx="139.7" ty="-427"/>
                   </matrix>
@@ -31,9 +31,9 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="202" keyMode="9728">
+            <DOMFrame index="237" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="afdruk" name="h" centerPoint3DX="186.4" centerPoint3DY="-368.85">
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="186.4" centerPoint3DY="-368.85">
                   <matrix>
                     <Matrix tx="139.7" ty="-427"/>
                   </matrix>
@@ -46,7 +46,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="203" keyMode="9728">
+            <DOMFrame index="238" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
@@ -56,7 +56,7 @@
             <DOMFrame index="0" duration="119" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="119" duration="60" keyMode="9728">
+            <DOMFrame index="119" duration="90" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="afdruk" name="g" centerPoint3DX="46.7" centerPoint3DY="-205.4">
                   <matrix>
@@ -68,9 +68,9 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="179" duration="18" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+            <DOMFrame index="209" duration="18" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="afdruk" name="g" selected="true" centerPoint3DX="46.7" centerPoint3DY="-205.4">
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="46.7" centerPoint3DY="-205.4">
                   <matrix>
                     <Matrix ty="-263.55"/>
                   </matrix>
@@ -80,9 +80,9 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="197" keyMode="9728">
+            <DOMFrame index="227" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="afdruk" name="g" centerPoint3DX="46.7" centerPoint3DY="-205.4">
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="46.7" centerPoint3DY="-205.4">
                   <matrix>
                     <Matrix ty="-263.55"/>
                   </matrix>
@@ -95,7 +95,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="198" duration="6" keyMode="9728">
+            <DOMFrame index="228" duration="11" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
@@ -105,7 +105,7 @@
             <DOMFrame index="0" duration="99" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="99" duration="75" keyMode="9728">
+            <DOMFrame index="99" duration="100" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="afdruk" name="f" centerPoint3DX="171.55" centerPoint3DY="-25.55">
                   <matrix>
@@ -117,9 +117,9 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="174" duration="18" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+            <DOMFrame index="199" duration="18" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="afdruk" name="f" selected="true" centerPoint3DX="171.55" centerPoint3DY="-25.55">
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="171.55" centerPoint3DY="-25.55">
                   <matrix>
                     <Matrix tx="124.85" ty="-83.7"/>
                   </matrix>
@@ -129,9 +129,9 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="192" keyMode="9728">
+            <DOMFrame index="217" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="afdruk" name="f" centerPoint3DX="171.55" centerPoint3DY="-25.55">
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="171.55" centerPoint3DY="-25.55">
                   <matrix>
                     <Matrix tx="124.85" ty="-83.7"/>
                   </matrix>
@@ -144,7 +144,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="193" duration="11" keyMode="9728">
+            <DOMFrame index="218" duration="21" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
@@ -154,7 +154,7 @@
             <DOMFrame index="0" duration="79" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="79" duration="90" keyMode="9728">
+            <DOMFrame index="79" duration="110" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="afdruk" name="e" centerPoint3DX="60.05" centerPoint3DY="148.3">
                   <matrix>
@@ -166,9 +166,9 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="169" duration="18" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+            <DOMFrame index="189" duration="18" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="afdruk" name="e" centerPoint3DX="60.05" centerPoint3DY="148.3">
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="60.05" centerPoint3DY="148.3">
                   <matrix>
                     <Matrix tx="13.35" ty="90.15"/>
                   </matrix>
@@ -178,9 +178,9 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="187" keyMode="9728">
+            <DOMFrame index="207" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="afdruk" name="e" centerPoint3DX="60.05" centerPoint3DY="148.3">
+                <DOMSymbolInstance libraryItemName="afdruk" selected="true" centerPoint3DX="60.05" centerPoint3DY="148.3">
                   <matrix>
                     <Matrix tx="13.35" ty="90.15"/>
                   </matrix>
@@ -193,7 +193,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="188" duration="16" keyMode="9728">
+            <DOMFrame index="208" duration="31" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
@@ -203,7 +203,7 @@
             <DOMFrame index="0" duration="59" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="59" duration="105" keyMode="9728">
+            <DOMFrame index="59" duration="120" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="afdruk" name="d" centerPoint3DX="186.4" centerPoint3DY="368.55">
                   <matrix>
@@ -215,9 +215,9 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="164" duration="18" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+            <DOMFrame index="179" duration="18" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="afdruk" name="d" centerPoint3DX="186.4" centerPoint3DY="368.55">
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="186.4" centerPoint3DY="368.55">
                   <matrix>
                     <Matrix tx="139.7" ty="310.4"/>
                   </matrix>
@@ -227,9 +227,9 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="182" keyMode="9728">
+            <DOMFrame index="197" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="afdruk" name="d" centerPoint3DX="186.4" centerPoint3DY="368.55">
+                <DOMSymbolInstance libraryItemName="afdruk" centerPoint3DX="186.4" centerPoint3DY="368.55">
                   <matrix>
                     <Matrix tx="139.7" ty="310.4"/>
                   </matrix>
@@ -242,7 +242,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="183" duration="21" keyMode="9728">
+            <DOMFrame index="198" duration="41" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
@@ -252,7 +252,7 @@
             <DOMFrame index="0" duration="39" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="39" duration="120" keyMode="9728">
+            <DOMFrame index="39" duration="130" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="afdruk" name="c" centerPoint3DX="46.7" centerPoint3DY="532">
                   <matrix>
@@ -264,7 +264,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="159" duration="18" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+            <DOMFrame index="169" duration="18" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
                 <DOMSymbolInstance libraryItemName="afdruk" name="c" centerPoint3DX="46.7" centerPoint3DY="532">
                   <matrix>
@@ -276,9 +276,9 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="177" keyMode="9728">
+            <DOMFrame index="187" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="afdruk" name="c" centerPoint3DX="46.7" centerPoint3DY="532">
+                <DOMSymbolInstance libraryItemName="afdruk" name="c" selected="true" centerPoint3DX="46.7" centerPoint3DY="532">
                   <matrix>
                     <Matrix ty="473.85"/>
                   </matrix>
@@ -291,7 +291,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="178" duration="26" keyMode="9728">
+            <DOMFrame index="188" duration="51" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
@@ -301,7 +301,7 @@
             <DOMFrame index="0" duration="19" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="19" duration="135" keyMode="9728">
+            <DOMFrame index="19" duration="140" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="afdruk" name="b" centerPoint3DX="171.55" centerPoint3DY="711.85">
                   <matrix>
@@ -313,7 +313,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="154" duration="18" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+            <DOMFrame index="159" duration="18" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
                 <DOMSymbolInstance libraryItemName="afdruk" name="b" centerPoint3DX="171.55" centerPoint3DY="711.85">
                   <matrix>
@@ -325,7 +325,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="172" keyMode="9728">
+            <DOMFrame index="177" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="afdruk" name="b" centerPoint3DX="171.55" centerPoint3DY="711.85">
                   <matrix>
@@ -340,7 +340,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="173" duration="31" keyMode="9728">
+            <DOMFrame index="178" duration="61" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
@@ -349,9 +349,9 @@
           <frames>
             <DOMFrame index="0" duration="149" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="afdruk" name="a" centerPoint3DX="60.05" centerPoint3DY="930.95">
+                <DOMSymbolInstance libraryItemName="afdruk" name="a" centerPoint3DX="60.05" centerPoint3DY="885.7">
                   <matrix>
-                    <Matrix tx="13.35" ty="872.8"/>
+                    <Matrix tx="13.35" ty="827.55"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="46.7" y="58.15"/>
@@ -386,7 +386,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="168" duration="36" keyMode="9728">
+            <DOMFrame index="168" duration="71" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
